@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="ledger.css">
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="index.js"></script>
+</head>
+<title>Practice JavaScript</title>
+
+<body>
+    <div class="container">
+        <!-- ========================== for header=================== -->
+        <div class="row nav">
+            <div class="col-xs-6 col-sm-6 nav-nm">
+                <a href="https://www.facebook.com/onyourdoornepal/"><img src="logo.png" height="60px" width="60px;" /> On Your Door</a>
+            </div>
+            <div class="col-xs-6 col-sm-6 nav-log">
+                <a href="register.html">
+                    <button class="login"> <span>LOGIN</span></button>
+                </a>
+            </div>
+        </div>
+        <!-- ========================== for navbar=================== -->
+        <div class="row" style="padding-bottom:30px;">
+            <div class="col-xs-9 col-sm-9 col-md-9  ">
+                <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                    <!-- Links -->
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="bill.html">Bill</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ledger.html">Ledger</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="journal.html">Journal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="stock.html">Stock</a>
+                        </li>
+                    </ul>
+            </div>
+            <div class="col-xs-3 col-md-3">
+                <form>
+                    <input type="text" name="search" placeholder="Search..">
+                </form>
+            </div>
+            </ul>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col-xs-8 col-md-8">
+                <p>General Ledger Sheet
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Account:
+                                    <input type="text">
+                                </th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                    </table>
+            </div>
+            <div class="col-xs-4 col-md-4">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Sheet No:
+                                <input type="text">
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>Account No:
+                                <input type="text">
+                            </td>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 ">
+                <table class="table-bordered" id="tableid">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Description</th>
+                            <th>Journal ref.</th>
+                            <th colspan="2">Transaction</th>
+                            <th colspan="2">Balance</th>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Debit</td>
+                            <td>Credit</td>
+                            <td>Debit</td>
+                            <td>Credit</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                            <td>
+                                <input type="text">
+                            </td>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+        <br>
+        <a href="submit.html">
+            <button type="submit"  value="Submit" style="align=center">Submit </button>
+        </a>
+        <br> <br>
+
+        <a href="#">
+            <button type="submit" value="Submit" style="align=center" onclick="f_hidecol('debit')">Debit</button>
+        </a>
+
+        <a href="#">
+            <button type="submit"  value="Submit" style="align=center" onclick="f_hidecol('credit')">Credit </button>
+        </a>
+
+
+
+
+
+        <br>
+        <br>
+        <div class="row">
+            <div class="jumbotron">
+                &copy;All rights are reserved by OYD.
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

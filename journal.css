@@ -1,0 +1,37 @@
+label {
+    text-align: center;
+    border-left: 6px solid red;
+    background-color: lightblue;
+    border-bottom: 6px solid maroon;
+    width: 400px;
+    margin-right: 250px;
+    margin-left: 350px;
+}
+
+p {
+    border-style: outset;
+    border-color: orange;
+    width: 100%;
+    /*margin-right: 100px;
+	margin-left: 100px;*/
+}
+
+/*.container {
+    margin-top: 50px;
+}*/
+
+.topic {
+    width: 95%;
+    border-style: outset;
+    border-color: orange;
+}
+
+.jumbotron {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    height: 50%;
+}

@@ -1,0 +1,59 @@
+
+.login{
+	float: right;
+}
+input[type=text] {
+	text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  float: right;
+  }
+  .login{
+  	 background-color: lightblue;
+  	 border-radius: 12px;
+  	 text-align: center;
+  	 text-decoration: bold;
+  	  text-shadow: 3px 2px orange;
+  }
+
+
+ input[type=text]:focus {
+  width: 100%;
+}
+h1{
+	padding: 380px;
+	text-align: center;
+
+}
+.navbar-dark .navbar-nav .nav-link{
+	padding-right: 90px;
+
+}
+
+.jumbotron{
+   
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: maroon;
+   color: white;
+   text-align: center;
+   height:20px;
+
+}
+
+.container{
+	margin-top: 10px;
+}
+
+.hidden { display: none }
